@@ -1,0 +1,39 @@
+body {
+    padding: 50px;
+    background-color: #ffd071;
+}
+
+h2 {
+    color: red;
+}
+
+.burger-img {
+    height: 100px;
+    width: 100px;
+}
+
+#img-div {
+    text-align: center;
+}
+
+.uneaten {
+    list-style: none;
+    background-color: #f8f6fa;
+    padding-bottom: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.devoured {
+    margin: 0;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.devour-button {
+    margin-left: 20px;
+    max-height: 30px;
+}
