@@ -2,25 +2,24 @@
   "name": "burgers",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
-    "mysql": "^2.18.1"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mcgeevee/Burgers.git"
+    "url": "git+https://github.com/hfolk25/burgers.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mcgeevee/Burgers/issues"
+    "url": "https://github.com/hfolk25/burgers/issues"
   },
-  "homepage": "https://github.com/mcgeevee/Burgers#readme"
+  "homepage": "https://github.com/hfolk25/burgers#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.17.1"
+  }
 }
