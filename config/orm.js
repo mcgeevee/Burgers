@@ -1,5 +1,5 @@
 // Import (require) connection.js into orm.js
-const connection = require("../config/connection.js");
+const connection = require("../config/connection");
 
 // Helper function for SQL syntax.
 // Let's say we want to pass 3 values into the mySQL query.
